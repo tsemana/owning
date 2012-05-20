@@ -13,7 +13,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platform => :ruby
   gem 'uglifier', '>= 1.0.3'
-  
+
   gem 'compass', :git => 'git://github.com/chriseppstein/compass.git', :branch => 'no_rails_integration'
   gem 'compass-rails', :git => 'git://github.com/Compass/compass-rails.git'
 end
